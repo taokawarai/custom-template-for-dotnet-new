@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Tao",
+  "classifications": [ "Console" ], 
+  "name": "Sample Project 01",
+  "identity": "Sample.Project.01",
+  "groupIdentity":"Sample.Projects",
+  "shortName": "sample01",
+  "tags": {
+    "language": "C#",
+    "type":"project"
+  },
+  "sourceName": "SampleProject.01",
+  "preferNameDirectory":true
+}
