@@ -6,7 +6,7 @@
 1. Install [`Dev Containers`](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension
 1. `Ctrl + P` & `> Dev Container: Reopen in Container`
 1. Exec commands and confirm demo
-1. `Ctrl + P` & `> Dev Containers: Reopen in Local`
+1. `Ctrl + P` & `> Dev Containers: Reopen in Locally`
 
 ## Clean up
 1. `Ctrl + P` & `> Dev Containers: Clean Up Dev Contaiers`

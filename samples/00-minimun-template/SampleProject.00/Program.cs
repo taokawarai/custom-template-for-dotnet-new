@@ -6,7 +6,8 @@ namespace SampleProject.00
   {
     static void Main(string[] args)
     {
-      Console.WriteLine(@"== SampleProject.00 == \n Date created: 2023/04/30");
+      Console.WriteLine(@"== SampleProject.00 ==
+      Date created: 2023/04/30");
     }
   }
 }
