@@ -18,6 +18,55 @@
 ### 0. Overview
 ![overview](./attachments/overview.drawio.svg)
 
+```
+template
+├── Template Definition
+│   ├── Base Configurations
+│   ├── Post Actions
+│   │   ├──> Restore NuGet packages
+│   │   ├──> Run script
+│   │   ├──> Open a file in the editor
+│   │   ├──> Add a reference to a project file
+│   │   ├──> Add project(s) to a solution file
+│   │   ├──> Change file permissions
+│   │   └──> Display manual instructions
+│   └── Constrains
+│       ├──> Operating system
+│       ├──> Running template engine host
+│       ├──> Installed workloads
+│       ├──> Current SDK version
+│       └──> Project capabilities
+├── Content Manipulation
+│   ├── Sources
+│   ├── Guids
+│   ├── Symbols
+│   │   ├──> Parameter
+│   │   ├──> Derrived
+│   │   ├──> Generated
+│   │   ├──> Computed
+│   │   └──> Bind
+│   └── Forms*
+│       ├──> replace
+│       ├──> chain
+│       ├──> xmlEncode
+│       ├──> lowerCase
+│       ├──> lowerCaseInvariant
+│       ├──> upperCase
+│       ├──> upperCaseInvariant
+│       ├──> firstLowerCase
+│       ├──> firstLowerCaseInvariant
+│       ├──> firstUpperCase
+│       ├──> firstUpperCaseInvariant
+│       ├──> titleCase
+│       └──> kebabCase
+└── Output Management
+
+* You can also define "Forms" in Symbols-Parameter too.
+
+└── ... Component
+└──> ... Type
+```
+
 
 ### 1. Template Definition
 #### 1.1. Basic Properties
